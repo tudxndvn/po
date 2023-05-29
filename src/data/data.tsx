@@ -68,10 +68,10 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Ha Noi based <strong className="text-stone-100">Front-end Developer</strong>,
+        I'm a Ha Noi based <strong className="text-stone-100">Product Owner</strong>,
         <br/>
         I’ve been working as a web developer for a few years now, 
-        and I’m passionate about everything that goes into making websites work well and look beautiful. 
+        and I’m passionate about everything that goes into building products with a delightful user experience. 
         <br/>
         The web is my passion because it’s where I can find the most exciting projects to work on.
          It’s also where I get to express my creativity in ways that are hard to find elsewhere.
@@ -100,9 +100,9 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Hey there! 👋. I'm Tu Dao, a Front End Developer based in Ha Noi, that loves to code and build products with a delightful user experience.
+  description: `Hey there! 👋. I'm Tu Dao, a Product Owner based in Ha Noi, that loves to code and build products with a delightful user experience.
   
-  I love working in between product, engineering and developer experience. Some things that make me excited are JavaScript, Open Source, CI & CD systems, simplicity, automating things and building meaningful user-centric products.
+  I love working in between product, engineering and developer experience. Some things that make me excited are Js, Open Source, CI & CD systems, simplicity, automating things and building meaningful user-centric products.
     
   Outside of work, I'm obsessed with sports, doing open source and travelling with my family.`,
   aboutItems: [
@@ -126,6 +126,39 @@ export const skills: SkillGroup[] = [
         level: 7,
       },
   
+    ],
+  },
+  {
+    name: 'Product Owner',
+    skills: [
+      {
+        name: 'Technical knowledge',
+        level: 9,
+      },
+      {
+        name: 'Leadership',
+        level: 9,
+      },
+      {
+        name: 'Project management',
+        level: 9,
+      },
+      {
+        name: 'Conflict resolution',
+        level: 8,
+      }, 
+      {
+        name: 'Time management',
+        level: 8,
+      },
+      {
+        name: 'Office tool',
+        level: 8,
+      }, 
+       {
+        name: 'Communication skills',
+        level: 8,
+      },
     ],
   },
   {
@@ -180,14 +213,22 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Tracking Tool',
+    name: 'Google Tool',
     skills: [
       {
         name: 'GA',
         level: 8,
       },
       {
-        name: 'Hotjar',
+        name: 'Firebase',
+        level: 8,
+      }, 
+      {
+        name: 'Google Ads',
+        level: 8,
+      },
+        {
+        name: 'Google Admob',
         level: 8,
       },
     ],
@@ -286,7 +327,17 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2019 - Present',
+    date: 'March 2021 - Present',
+    location: 'Monkid Studio (https://monkidsstudio.com/)',
+    title: 'Co-founder',
+    content: (
+      <p>
+          Create game puzzle and hyper casual for publisher: ABI and Ads One
+      </p>
+    ),
+  },
+  {
+    date: 'March 2019 - 2021',
     location: 'Xpon.ai',
     title: 'Front-end developer',
     content: (
@@ -343,7 +394,7 @@ export const experience: TimelineItem[] = [
   },
   {
     date: 'March 2017 - February 2019',
-    location: 'Onesoft inc',
+    location: 'Onesoft inc (Falcon Studio)',
     title: 'IOS Developer',
     content: (
       <p>
